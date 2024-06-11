@@ -4,8 +4,9 @@ export const routerRequest = async (req, res) => {
   setTimeout(
     () => {
       res.json({
-        message: `${speed.toString().toUpperCase()} _
-      ${type.toString().toUpperCase()} API response`,
+        message: `${speed.toString().toUpperCase()} ${type
+          .toString()
+          .toUpperCase()} API response`,
       });
     },
     speed === "fast" ? 0 : 2000
