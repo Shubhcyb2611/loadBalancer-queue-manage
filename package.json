@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "node ./src/app.js | pino-pretty"
+    "dev": "nodemon ./src/app.js | pino-pretty"
   },
   "author": "Shubhcyb2611",
   "license": "ISC",
