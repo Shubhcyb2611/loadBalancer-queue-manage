@@ -1,13 +1,21 @@
 import express from "express";
 import { Logger } from "./middleware/logger.js";
 import genericRouter from "../src/routers/router-Request.js";
+import { REST_PORT, GRAPHQL_PORT, GRPC_PORT } from "./config/env.config.js";
 
-const app = express();
+const ports = {
+  REST: REST_PORT,
+  GraphQL: GRAPHQL_PORT,
+  gRPC: GRPC_PORT,
+};
 
-app.use("/api", genericRouter);
+for (const [apiType, port] of Object.entries(ports)) {
+  const app = express();
+  app.use(express.json());
 
-const PORT = 3000;
+  app.use("/api", genericRouter);
 
-app.listen(PORT, () => {
-  Logger.info(`Load Balancer Server is starting at http://localhost:${PORT}`);
-});
+  app.listen(port, () => {
+    Logger.info(`${apiType} API server is running on port ${port}`);
+  });
+}
