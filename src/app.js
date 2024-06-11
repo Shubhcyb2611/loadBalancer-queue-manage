@@ -2,6 +2,8 @@ import express from "express";
 import { Logger } from "./middleware/logger.js";
 const app = express();
 
-app.listen(3000, () => {
-  Logger.info("Server is  starting at http://localhost:3000");
+const PORT = 3000;
+
+app.listen(PORT, () => {
+  Logger.info(`Load Balancer Server is starting at http://localhost:${PORT}`);
 });
