@@ -1,3 +1,5 @@
+import QueueManager from "../services/queue.service";
+
 //Generic function for handling route requests
 export const routerRequest = async (req, res) => {
   const { type, speed } = req.params; //extractiong from request params
@@ -14,5 +16,10 @@ export const routerRequest = async (req, res) => {
   );
 };
 
+//Load balancer controller to handle queue
+export const handleRequestQueue = async (req, res) => {
+  const queueManager = new QueueManager(); //instance of queue manager
 
-//Load balancer controller to handle queue 
+  const { type, speed } = req.body;
+  queueManager.addRequest({ type, speed, res }); //add request
+};
