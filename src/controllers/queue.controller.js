@@ -27,4 +27,36 @@ class QueueManager {
     }
     Logger.info(`Added request to ${request.type} queue`);
   }
+
+  processQueues() {
+    setInterval(() => {
+      if (this.fifoQueue.length > 0) {
+        this.handleRequest(this.fifoQueue.shift());
+      }
+      if (this.priorityQueue.length > 0) {
+        this.handleRequest(this.priorityQueue.shift());
+      }
+      if (this.roundRobinQueue.length > 0) {
+        const request =
+          this.roundRobinQueue[this.currentQueue % this.roundRobinQueue.length];
+        this.handleRequest(request);
+        this.currentQueue++;
+      }
+    }, 1000);
+  }
+
+  handleRequest(request) {
+    const { type, speed, res } = request;
+    Logger.info(`Handling ${type} request with ${speed} speed`);
+    setTimeout(
+      () => {
+        res.json({
+          message: `${speed.toUpperCase()} ${type.toUpperCase()} API response`,
+        });
+        Logger.info(`Response sent for ${type} request with ${speed} speed`);
+      },
+      speed === "fast" ? 0 : 2000
+    );
+  }
 }
+export default QueueManager;
