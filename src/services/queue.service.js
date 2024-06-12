@@ -63,7 +63,7 @@ class QueueManager {
         });
         Logger.info(`Response sent for ${type} request with ${speed} speed`);
       },
-      speed === "fast" ? 0 : 2000 // time based request processing
+      speed === "fast" ? 0 : 3000 // time based request processing
     );
   }
 }
