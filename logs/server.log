@@ -1,0 +1,3 @@
+{"level":30,"time":1718173799197,"pid":193157,"hostname":"ws5","msg":"REST API server is running on port 6001"}
+{"level":30,"time":1718173799197,"pid":193157,"hostname":"ws5","msg":"GraphQL API server is running on port 6002"}
+{"level":30,"time":1718173799197,"pid":193157,"hostname":"ws5","msg":"gRPC API server is running on port 6003"}

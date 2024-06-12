@@ -1,5 +1,21 @@
+// import pino from "pino";
+
+// const streams = [{ stream: process.stdout }];
+
+// export const Logger = pino({ level: "info" }, pino.multistream(streams));
 import pino from "pino";
 
-const streams = [{ stream: process.stdout }];
+import fs from "fs";
+import { LOG_LEVEL, LOG_PATH } from "../config/env.config.js";
 
-export const Logger = pino({ level: "info" }, pino.multistream(streams));
+const streams = [
+  { stream: process.stdout },
+  { stream: fs.createWriteStream(LOG_PATH, { flags: "a" }) },
+];
+
+export const Logger = pino(
+  {
+    level: LOG_LEVEL,
+  },
+  pino.multistream(streams)
+);

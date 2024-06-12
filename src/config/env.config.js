@@ -7,5 +7,11 @@ const __dirname = path.dirname(__filename);
 
 dotenv.config({ path: path.resolve(__dirname, "../../.env") });
 
-export const { LOADBALANCER_PORT, REST_PORT, GRAPHQL_PORT, GRPC_PORT } =
-  process.env;
+export const {
+  LOG_PATH,
+  LOG_LEVEL,
+  LOADBALANCER_PORT,
+  REST_PORT,
+  GRAPHQL_PORT,
+  GRPC_PORT,
+} = process.env;
