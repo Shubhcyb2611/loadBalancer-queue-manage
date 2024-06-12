@@ -37,5 +37,5 @@ loadBalancerApp.use("/api", genericRouter);
 
 //Start the load balancer server on its port
 loadBalancerApp.listen(LOADBALANCER_PORT, () => {
-  Logger.info(`Load balancer is running on port ${LOADBALANCER_PORT}`);
+  Logger.info(`Load balancer server is running on port ${LOADBALANCER_PORT}`);
 });
