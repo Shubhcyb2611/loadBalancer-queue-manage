@@ -9,6 +9,7 @@ const ports = {
   gRPC: GRPC_PORT,
 };
 
+
 for (const [apiType, port] of Object.entries(ports)) {
   const app = express();
   app.use(express.json());
