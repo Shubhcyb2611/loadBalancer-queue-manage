@@ -1,6 +1,6 @@
 //Generic function for handling route requests
 export const routerRequest = async (req, res) => {
-  const { type, speed } = req.params;
+  const { type, speed } = req.params; //extractiong from request params
 
   setTimeout(
     () => {
@@ -10,6 +10,6 @@ export const routerRequest = async (req, res) => {
           .toUpperCase()} API response`,
       });
     },
-    speed === "fast" ? 0 : 2000
+    speed === "fast" ? 0 : 2000 //if speed if fast then no delay , else 2 seconds
   );
 };
