@@ -11,6 +11,7 @@ const streams = [
 export const Logger = pino(
   {
     level: LOG_LEVEL,
+    
   },
   pino.multistream(streams)
 );
