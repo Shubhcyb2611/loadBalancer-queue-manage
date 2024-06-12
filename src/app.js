@@ -26,7 +26,8 @@ for (const [apiType, port] of Object.entries(ports)) {
   });
 }
 const loadBalancerApp = express();
-
+loadBalancerApp.use(express.json());
+loadBalancerApp.use("/api", genericRouter);
 loadBalancerApp.listen(3000, () => {
   Logger.info(`Load balancer is running on port 3000`);
 });

@@ -1,4 +1,4 @@
-import QueueManager from "../services/queue.service";
+import QueueManager from "../services/queue.service.js";
 
 //Generic function for handling route requests
 export const routerRequest = async (req, res) => {
