@@ -1,7 +1,12 @@
 import express from "express";
 import { Logger } from "./middleware/logger.js";
 import genericRouter from "../src/routers/router-Request.js";
-import { REST_PORT, GRAPHQL_PORT, GRPC_PORT } from "./config/env.config.js";
+import {
+  REST_PORT,
+  GRAPHQL_PORT,
+  GRPC_PORT,
+  LOADBALANCER_PORT,
+} from "./config/env.config.js";
 import { requestPayload, responsePayload } from "./middleware/payload.js";
 
 const ports = {
@@ -21,6 +26,7 @@ for (const [apiType, port] of Object.entries(ports)) {
 
   app.use("/api", genericRouter);
 
+  // Start the server on the specific port for API type
   app.listen(port, () => {
     Logger.info(`${apiType} API server is running on port ${port}`);
   });
@@ -28,6 +34,8 @@ for (const [apiType, port] of Object.entries(ports)) {
 const loadBalancerApp = express();
 loadBalancerApp.use(express.json());
 loadBalancerApp.use("/api", genericRouter);
-loadBalancerApp.listen(3000, () => {
-  Logger.info(`Load balancer is running on port 3000`);
+
+//Start the load balancer server on its port
+loadBalancerApp.listen(LOADBALANCER_PORT, () => {
+  Logger.info(`Load balancer is running on port ${LOADBALANCER_PORT}`);
 });
