@@ -1,3 +1,4 @@
+//Generic function for handling route requests
 export const routerRequest = async (req, res) => {
   const { type, speed } = req.params;
 
