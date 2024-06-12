@@ -11,9 +11,12 @@ const ports = {
   gRPC: GRPC_PORT,
 };
 
+//Loop to starting all three servers with their associated API types and ports
 for (const [apiType, port] of Object.entries(ports)) {
   const app = express();
-  app.use(express.json());
+  app.use(express.json()); //parse json req body
+
+  //for logging payload info
   app.use(requestPayload);
   app.use(responsePayload);
 

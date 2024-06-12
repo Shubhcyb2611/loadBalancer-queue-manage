@@ -13,3 +13,6 @@ export const routerRequest = async (req, res) => {
     speed === "fast" ? 0 : 2000 //if speed if fast then no delay , else 2 seconds
   );
 };
+
+
+//Load balancer controller to handle queue 
