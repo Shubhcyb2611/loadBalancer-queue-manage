@@ -455,3 +455,203 @@
 {"level":30,"time":1718177030550,"pid":280459,"hostname":"ws5","msg":"REST API server is running on port 6001"}
 {"level":30,"time":1718177030550,"pid":280459,"hostname":"ws5","msg":"GraphQL API server is running on port 6002"}
 {"level":30,"time":1718177030550,"pid":280459,"hostname":"ws5","msg":"gRPC API server is running on port 6003"}
+{"level":30,"time":1718177179278,"pid":284619,"hostname":"ws5","msg":"REST API server is running on port 6001"}
+{"level":30,"time":1718177179278,"pid":284619,"hostname":"ws5","msg":"GraphQL API server is running on port 6002"}
+{"level":30,"time":1718177179278,"pid":284619,"hostname":"ws5","msg":"gRPC API server is running on port 6003"}
+{"level":30,"time":1718177179279,"pid":284619,"hostname":"ws5","msg":"Load balancer is running on port 3000"}
+{"level":30,"time":1718177184987,"pid":284619,"hostname":"ws5","msg":"Request Payload Size: 15 bytes"}
+{"level":30,"time":1718177184987,"pid":284619,"hostname":"ws5","msg":"Request Payload Type: application/json"}
+{"level":30,"time":1718177184989,"pid":284619,"hostname":"ws5","msg":"Response Payload Size: 36 bytes"}
+{"level":30,"time":1718177184989,"pid":284619,"hostname":"ws5","msg":"Response Payload Type: application/json; charset=utf-8"}
+{"level":30,"time":1718177193078,"pid":284619,"hostname":"ws5","msg":"Request Payload Size: 2 bytes"}
+{"level":30,"time":1718177193078,"pid":284619,"hostname":"ws5","msg":"Request Payload Type: application/json"}
+{"level":30,"time":1718177193080,"pid":284619,"hostname":"ws5","msg":"Response Payload Size: 36 bytes"}
+{"level":30,"time":1718177193080,"pid":284619,"hostname":"ws5","msg":"Response Payload Type: application/json; charset=utf-8"}
+{"level":30,"time":1718177300620,"pid":287838,"hostname":"ws5","msg":"REST API server is running on port 6001"}
+{"level":30,"time":1718177300621,"pid":287838,"hostname":"ws5","msg":"GraphQL API server is running on port 6002"}
+{"level":30,"time":1718177300621,"pid":287838,"hostname":"ws5","msg":"gRPC API server is running on port 6003"}
+{"level":30,"time":1718177300621,"pid":287838,"hostname":"ws5","msg":"Load balancer is running on port 3000"}
+{"level":30,"time":1718177330027,"pid":287838,"hostname":"ws5","msg":"Added request to REST queue"}
+{"level":30,"time":1718177330652,"pid":287838,"hostname":"ws5","msg":"Handling REST request with slow speed"}
+{"level":30,"time":1718177332655,"pid":287838,"hostname":"ws5","msg":"Response sent for REST request with slow speed"}
+{"level":30,"time":1718177354012,"pid":287838,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177354679,"pid":287838,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177355679,"pid":287838,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177356681,"pid":287838,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177356681,"pid":287838,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177495734,"pid":292872,"hostname":"ws5","msg":"REST API server is running on port 6001"}
+{"level":30,"time":1718177495735,"pid":292872,"hostname":"ws5","msg":"GraphQL API server is running on port 6002"}
+{"level":30,"time":1718177495735,"pid":292872,"hostname":"ws5","msg":"gRPC API server is running on port 6003"}
+{"level":30,"time":1718177495735,"pid":292872,"hostname":"ws5","msg":"Load balancer is running on port 3000"}
+{"level":30,"time":1718177496293,"pid":292893,"hostname":"ws5","msg":"REST API server is running on port 6001"}
+{"level":30,"time":1718177496293,"pid":292893,"hostname":"ws5","msg":"GraphQL API server is running on port 6002"}
+{"level":30,"time":1718177496293,"pid":292893,"hostname":"ws5","msg":"gRPC API server is running on port 6003"}
+{"level":30,"time":1718177496293,"pid":292893,"hostname":"ws5","msg":"Load balancer is running on port 3000"}
+{"level":30,"time":1718177500775,"pid":292893,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177501297,"pid":292893,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177503302,"pid":292893,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177517410,"pid":293508,"hostname":"ws5","msg":"REST API server is running on port 6001"}
+{"level":30,"time":1718177517410,"pid":293508,"hostname":"ws5","msg":"GraphQL API server is running on port 6002"}
+{"level":30,"time":1718177517410,"pid":293508,"hostname":"ws5","msg":"gRPC API server is running on port 6003"}
+{"level":30,"time":1718177517410,"pid":293508,"hostname":"ws5","msg":"Load balancer is running on port 3000"}
+{"level":30,"time":1718177519569,"pid":293607,"hostname":"ws5","msg":"REST API server is running on port 6001"}
+{"level":30,"time":1718177519569,"pid":293607,"hostname":"ws5","msg":"GraphQL API server is running on port 6002"}
+{"level":30,"time":1718177519569,"pid":293607,"hostname":"ws5","msg":"gRPC API server is running on port 6003"}
+{"level":30,"time":1718177519569,"pid":293607,"hostname":"ws5","msg":"Load balancer is running on port 3000"}
+{"level":30,"time":1718177522277,"pid":293698,"hostname":"ws5","msg":"REST API server is running on port 6001"}
+{"level":30,"time":1718177522278,"pid":293698,"hostname":"ws5","msg":"GraphQL API server is running on port 6002"}
+{"level":30,"time":1718177522278,"pid":293698,"hostname":"ws5","msg":"gRPC API server is running on port 6003"}
+{"level":30,"time":1718177522278,"pid":293698,"hostname":"ws5","msg":"Load balancer is running on port 3000"}
+{"level":30,"time":1718177527939,"pid":293698,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177528283,"pid":293698,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177530286,"pid":293698,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177533428,"pid":293698,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177534289,"pid":293698,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177536291,"pid":293698,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177545952,"pid":294413,"hostname":"ws5","msg":"REST API server is running on port 6001"}
+{"level":30,"time":1718177545952,"pid":294413,"hostname":"ws5","msg":"GraphQL API server is running on port 6002"}
+{"level":30,"time":1718177545952,"pid":294413,"hostname":"ws5","msg":"gRPC API server is running on port 6003"}
+{"level":30,"time":1718177545952,"pid":294413,"hostname":"ws5","msg":"Load balancer is running on port 3000"}
+{"level":30,"time":1718177552449,"pid":294615,"hostname":"ws5","msg":"REST API server is running on port 6001"}
+{"level":30,"time":1718177552450,"pid":294615,"hostname":"ws5","msg":"GraphQL API server is running on port 6002"}
+{"level":30,"time":1718177552450,"pid":294615,"hostname":"ws5","msg":"gRPC API server is running on port 6003"}
+{"level":30,"time":1718177552450,"pid":294615,"hostname":"ws5","msg":"Load balancer is running on port 3000"}
+{"level":30,"time":1718177557040,"pid":294615,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177557455,"pid":294615,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177558530,"pid":294615,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177559164,"pid":294615,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177559457,"pid":294615,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177559458,"pid":294615,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177560459,"pid":294615,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177561460,"pid":294615,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177562460,"pid":294615,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177566677,"pid":294615,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177567465,"pid":294615,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177568454,"pid":294615,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177568465,"pid":294615,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177569212,"pid":294615,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177569465,"pid":294615,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177569466,"pid":294615,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177569517,"pid":294615,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177570467,"pid":294615,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177570467,"pid":294615,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177571467,"pid":294615,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177572469,"pid":294615,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177577425,"pid":294615,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177577470,"pid":294615,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177577645,"pid":294615,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177577892,"pid":294615,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177578091,"pid":294615,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177578470,"pid":294615,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177579471,"pid":294615,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177579471,"pid":294615,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177580472,"pid":294615,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177580472,"pid":294615,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177581472,"pid":294615,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177582473,"pid":294615,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177586233,"pid":294615,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177586475,"pid":294615,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177586713,"pid":294615,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177587261,"pid":294615,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177587475,"pid":294615,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177588232,"pid":294615,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177588476,"pid":294615,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177588476,"pid":294615,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177588586,"pid":294615,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177588728,"pid":294615,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177588873,"pid":294615,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177589046,"pid":294615,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177589167,"pid":294615,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177589317,"pid":294615,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177589454,"pid":294615,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177589476,"pid":294615,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177589476,"pid":294615,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177589650,"pid":294615,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177590477,"pid":294615,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177590477,"pid":294615,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177591478,"pid":294615,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177591478,"pid":294615,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177592479,"pid":294615,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177592479,"pid":294615,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177593479,"pid":294615,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177593480,"pid":294615,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177594480,"pid":294615,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177594482,"pid":294615,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177595481,"pid":294615,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177595482,"pid":294615,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177596482,"pid":294615,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177596482,"pid":294615,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177597483,"pid":294615,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177597483,"pid":294615,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177598483,"pid":294615,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177599484,"pid":294615,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177611593,"pid":296355,"hostname":"ws5","msg":"REST API server is running on port 6001"}
+{"level":30,"time":1718177611593,"pid":296355,"hostname":"ws5","msg":"GraphQL API server is running on port 6002"}
+{"level":30,"time":1718177611593,"pid":296355,"hostname":"ws5","msg":"gRPC API server is running on port 6003"}
+{"level":30,"time":1718177611593,"pid":296355,"hostname":"ws5","msg":"Load balancer is running on port 3000"}
+{"level":30,"time":1718177611993,"pid":296373,"hostname":"ws5","msg":"REST API server is running on port 6001"}
+{"level":30,"time":1718177611993,"pid":296373,"hostname":"ws5","msg":"GraphQL API server is running on port 6002"}
+{"level":30,"time":1718177611993,"pid":296373,"hostname":"ws5","msg":"gRPC API server is running on port 6003"}
+{"level":30,"time":1718177611994,"pid":296373,"hostname":"ws5","msg":"Load balancer is running on port 3000"}
+{"level":30,"time":1718177615908,"pid":296373,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177615909,"pid":296373,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177616983,"pid":296373,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177616983,"pid":296373,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177617610,"pid":296373,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177617610,"pid":296373,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177617911,"pid":296373,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177617979,"pid":296373,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177617979,"pid":296373,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177618150,"pid":296373,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177618151,"pid":296373,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177618347,"pid":296373,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177618348,"pid":296373,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177618668,"pid":296373,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177618668,"pid":296373,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177618862,"pid":296373,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177618862,"pid":296373,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177618984,"pid":296373,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177619155,"pid":296373,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177619155,"pid":296373,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177619260,"pid":296373,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177619260,"pid":296373,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177619611,"pid":296373,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177619759,"pid":296373,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177619759,"pid":296373,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177619954,"pid":296373,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177619954,"pid":296373,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177619981,"pid":296373,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177620151,"pid":296373,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177620188,"pid":296373,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177620188,"pid":296373,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177620348,"pid":296373,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177620357,"pid":296373,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177620357,"pid":296373,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177620553,"pid":296373,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177620554,"pid":296373,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177620670,"pid":296373,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177620863,"pid":296373,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177621156,"pid":296373,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177621194,"pid":296373,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718177621194,"pid":296373,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718177621261,"pid":296373,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177621760,"pid":296373,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177621955,"pid":296373,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177622188,"pid":296373,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177622357,"pid":296373,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177622555,"pid":296373,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177623195,"pid":296373,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718177627922,"pid":296868,"hostname":"ws5","msg":"REST API server is running on port 6001"}
+{"level":30,"time":1718177627922,"pid":296868,"hostname":"ws5","msg":"GraphQL API server is running on port 6002"}
+{"level":30,"time":1718177627922,"pid":296868,"hostname":"ws5","msg":"gRPC API server is running on port 6003"}
+{"level":30,"time":1718177627923,"pid":296868,"hostname":"ws5","msg":"Load balancer is running on port 3000"}
+{"level":30,"time":1718177628705,"pid":296918,"hostname":"ws5","msg":"REST API server is running on port 6001"}
+{"level":30,"time":1718177628706,"pid":296918,"hostname":"ws5","msg":"GraphQL API server is running on port 6002"}
+{"level":30,"time":1718177628706,"pid":296918,"hostname":"ws5","msg":"gRPC API server is running on port 6003"}
+{"level":30,"time":1718177628706,"pid":296918,"hostname":"ws5","msg":"Load balancer is running on port 3000"}
+{"level":30,"time":1718178602965,"pid":296918,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718178603853,"pid":296918,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718178605294,"pid":296918,"hostname":"ws5","msg":"Added request to gRPC queue"}
+{"level":30,"time":1718178605856,"pid":296918,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}
+{"level":30,"time":1718178605856,"pid":296918,"hostname":"ws5","msg":"Handling gRPC request with slow speed"}
+{"level":30,"time":1718178607858,"pid":296918,"hostname":"ws5","msg":"Response sent for gRPC request with slow speed"}

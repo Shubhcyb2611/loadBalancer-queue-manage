@@ -3,6 +3,7 @@ import { Logger } from "./middleware/logger.js";
 import genericRouter from "../src/routers/router-Request.js";
 import { REST_PORT, GRAPHQL_PORT, GRPC_PORT } from "./config/env.config.js";
 import { requestPayload, responsePayload } from "./middleware/payload.js";
+import QueueManager from "./controllers/queue.controller.js";
 
 const ports = {
   REST: REST_PORT,
@@ -22,3 +23,16 @@ for (const [apiType, port] of Object.entries(ports)) {
     Logger.info(`${apiType} API server is running on port ${port}`);
   });
 }
+const loadBalancerApp = express();
+const queueManager = new QueueManager();
+
+loadBalancerApp.use(express.json());
+
+loadBalancerApp.post("/requests", (req, res) => {
+  const { type, speed } = req.body;
+  queueManager.addRequest({ type, speed, res });
+});
+
+loadBalancerApp.listen(3000, () => {
+  Logger.info(`Load balancer is running on port 3000`);
+});

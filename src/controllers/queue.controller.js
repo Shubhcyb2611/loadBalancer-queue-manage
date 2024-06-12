@@ -1,4 +1,4 @@
-import { Logger } from "../middleware/logger";
+import { Logger } from "../middleware/logger.js";
 
 class QueueManager {
   constructor() {
@@ -40,7 +40,13 @@ class QueueManager {
         const request =
           this.roundRobinQueue[this.currentQueue % this.roundRobinQueue.length];
         this.handleRequest(request);
+        this.roundRobinQueue.splice(
+          this.currentQueue % this.roundRobinQueue.length,
+          1
+        );
+        console.log(this.roundRobinQueue);
         this.currentQueue++;
+        console.log(this.currentQueue);
       }
     }, 1000);
   }
