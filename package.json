@@ -4,9 +4,6 @@
   "description": "",
   "main": "index.js",
   "type": "module",
-  "engines": {
-    "node": "20.x"
-  },
   "scripts": {
     "dev": "nodemon ./src/app.js | pino-pretty"
   },
@@ -14,9 +11,11 @@
   "license": "ISC",
   "dependencies": {
     "axios": "^1.7.2",
+    "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "logger": "^0.0.1",
     "morgan": "^1.10.0",
-    "pino": "^9.1.0"
+    "pino": "^9.1.0",
+    "pino-pretty": "^11.2.1"
   }
 }
