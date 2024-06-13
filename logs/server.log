@@ -1465,3 +1465,7 @@
 {"level":30,"time":1718264749310,"pid":167213,"hostname":"ws5","msg":"Added request to REST queue"}
 {"level":30,"time":1718264750311,"pid":167213,"hostname":"ws5","msg":"Handling REST request with slow speed"}
 {"level":30,"time":1718264753313,"pid":167213,"hostname":"ws5","msg":"Response sent for REST request with slow speed"}
+{"level":30,"time":1718264921839,"pid":175399,"hostname":"ws5","msg":"REST API server is running on port 6001"}
+{"level":30,"time":1718264921840,"pid":175399,"hostname":"ws5","msg":"GraphQL API server is running on port 6002"}
+{"level":30,"time":1718264921840,"pid":175399,"hostname":"ws5","msg":"gRPC API server is running on port 6003"}
+{"level":30,"time":1718264921840,"pid":175399,"hostname":"ws5","msg":"Load balancer server is running on port http://localhost:5609"}

@@ -41,6 +41,12 @@ loadBalancerApp.get("/", (req, res) => {
   );
 });
 
+loadBalancerApp.get("/debug", (req, res) => {
+  res.send(
+    "<h1>Debug Route</h1><p>If you see this, the server is running correctly.</p>"
+  );
+});
+
 //Start the load balancer server on its port
 loadBalancerApp.listen(LOADBALANCER_PORT, () => {
   Logger.info(
