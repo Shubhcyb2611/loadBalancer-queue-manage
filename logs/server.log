@@ -1410,3 +1410,58 @@
 {"level":30,"time":1718264169600,"pid":144416,"hostname":"ws5","msg":"GraphQL API server is running on port 6002"}
 {"level":30,"time":1718264169600,"pid":144416,"hostname":"ws5","msg":"gRPC API server is running on port 6003"}
 {"level":30,"time":1718264169600,"pid":144416,"hostname":"ws5","msg":"Load balancer server is running on port 6000"}
+{"level":30,"time":1718264263671,"pid":144416,"hostname":"ws5","msg":"Added request to REST queue"}
+{"level":30,"time":1718264264671,"pid":144416,"hostname":"ws5","msg":"Handling REST request with slow speed"}
+{"level":30,"time":1718264267675,"pid":144416,"hostname":"ws5","msg":"Response sent for REST request with slow speed"}
+{"level":30,"time":1718264365352,"pid":152337,"hostname":"ws5","msg":"REST API server is running on port 6001"}
+{"level":30,"time":1718264365353,"pid":152337,"hostname":"ws5","msg":"GraphQL API server is running on port 6002"}
+{"level":30,"time":1718264365353,"pid":152337,"hostname":"ws5","msg":"gRPC API server is running on port 6003"}
+{"level":30,"time":1718264365353,"pid":152337,"hostname":"ws5","msg":"Load balancer server is running on port 6000"}
+{"level":30,"time":1718264378626,"pid":152969,"hostname":"ws5","msg":"REST API server is running on port 6001"}
+{"level":30,"time":1718264378626,"pid":152969,"hostname":"ws5","msg":"GraphQL API server is running on port 6002"}
+{"level":30,"time":1718264378626,"pid":152969,"hostname":"ws5","msg":"gRPC API server is running on port 6003"}
+{"level":30,"time":1718264378627,"pid":152969,"hostname":"ws5","msg":"Load balancer server is running on port htt6000"}
+{"level":30,"time":1718264386310,"pid":153318,"hostname":"ws5","msg":"REST API server is running on port 6001"}
+{"level":30,"time":1718264386311,"pid":153318,"hostname":"ws5","msg":"GraphQL API server is running on port 6002"}
+{"level":30,"time":1718264386311,"pid":153318,"hostname":"ws5","msg":"gRPC API server is running on port 6003"}
+{"level":30,"time":1718264386311,"pid":153318,"hostname":"ws5","msg":"Load balancer server is running on port http://localhost6000"}
+{"level":30,"time":1718264388706,"pid":153433,"hostname":"ws5","msg":"REST API server is running on port 6001"}
+{"level":30,"time":1718264388706,"pid":153433,"hostname":"ws5","msg":"GraphQL API server is running on port 6002"}
+{"level":30,"time":1718264388706,"pid":153433,"hostname":"ws5","msg":"gRPC API server is running on port 6003"}
+{"level":30,"time":1718264388706,"pid":153433,"hostname":"ws5","msg":"Load balancer server is running on port http://localhost:6000"}
+{"level":30,"time":1718264497423,"pid":157634,"hostname":"ws5","msg":"REST API server is running on port 6001"}
+{"level":30,"time":1718264497424,"pid":157634,"hostname":"ws5","msg":"GraphQL API server is running on port 6002"}
+{"level":30,"time":1718264497424,"pid":157634,"hostname":"ws5","msg":"gRPC API server is running on port 6003"}
+{"level":30,"time":1718264497424,"pid":157634,"hostname":"ws5","msg":"Load balancer server is running on port http://localhost:6000"}
+{"level":30,"time":1718264563110,"pid":160544,"hostname":"ws5","msg":"REST API server is running on port 6001"}
+{"level":30,"time":1718264563110,"pid":160544,"hostname":"ws5","msg":"GraphQL API server is running on port 6002"}
+{"level":30,"time":1718264563110,"pid":160544,"hostname":"ws5","msg":"gRPC API server is running on port 6003"}
+{"level":30,"time":1718264563111,"pid":160544,"hostname":"ws5","msg":"Load balancer server is running on port http://localhost:2406"}
+{"level":30,"time":1718264570639,"pid":161046,"hostname":"ws5","msg":"REST API server is running on port 6001"}
+{"level":30,"time":1718264570639,"pid":161046,"hostname":"ws5","msg":"GraphQL API server is running on port 6002"}
+{"level":30,"time":1718264570639,"pid":161046,"hostname":"ws5","msg":"gRPC API server is running on port 6003"}
+{"level":30,"time":1718264570639,"pid":161046,"hostname":"ws5","msg":"Load balancer server is running on port http://localhost:"}
+{"level":30,"time":1718264572660,"pid":161161,"hostname":"ws5","msg":"REST API server is running on port 6001"}
+{"level":30,"time":1718264572660,"pid":161161,"hostname":"ws5","msg":"GraphQL API server is running on port 6002"}
+{"level":30,"time":1718264572660,"pid":161161,"hostname":"ws5","msg":"gRPC API server is running on port 6003"}
+{"level":30,"time":1718264572660,"pid":161161,"hostname":"ws5","msg":"Load balancer server is running on port http://localhost:6000"}
+{"level":30,"time":1718264590277,"pid":161161,"hostname":"ws5","msg":"Added request to REST queue"}
+{"level":30,"time":1718264591278,"pid":161161,"hostname":"ws5","msg":"Handling REST request with slow speed"}
+{"level":30,"time":1718264594281,"pid":161161,"hostname":"ws5","msg":"Response sent for REST request with slow speed"}
+{"level":30,"time":1718264603288,"pid":161161,"hostname":"ws5","msg":"Request Payload Size: 2 bytes"}
+{"level":30,"time":1718264603288,"pid":161161,"hostname":"ws5","msg":"Request Payload Type: undefined"}
+{"level":30,"time":1718264703540,"pid":166537,"hostname":"ws5","msg":"REST API server is running on port 6001"}
+{"level":30,"time":1718264703541,"pid":166537,"hostname":"ws5","msg":"GraphQL API server is running on port 6002"}
+{"level":30,"time":1718264703541,"pid":166537,"hostname":"ws5","msg":"gRPC API server is running on port 6003"}
+{"level":30,"time":1718264703541,"pid":166537,"hostname":"ws5","msg":"Load balancer server is running on port http://localhost:6000"}
+{"level":30,"time":1718264710911,"pid":166986,"hostname":"ws5","msg":"REST API server is running on port 6001"}
+{"level":30,"time":1718264710912,"pid":166986,"hostname":"ws5","msg":"GraphQL API server is running on port 6002"}
+{"level":30,"time":1718264710912,"pid":166986,"hostname":"ws5","msg":"gRPC API server is running on port 6003"}
+{"level":30,"time":1718264710912,"pid":166986,"hostname":"ws5","msg":"Load balancer server is running on port http://localhost:$"}
+{"level":30,"time":1718264715458,"pid":167213,"hostname":"ws5","msg":"REST API server is running on port 6001"}
+{"level":30,"time":1718264715459,"pid":167213,"hostname":"ws5","msg":"GraphQL API server is running on port 6002"}
+{"level":30,"time":1718264715459,"pid":167213,"hostname":"ws5","msg":"gRPC API server is running on port 6003"}
+{"level":30,"time":1718264715459,"pid":167213,"hostname":"ws5","msg":"Load balancer server is running on port http://localhost:5609"}
+{"level":30,"time":1718264749310,"pid":167213,"hostname":"ws5","msg":"Added request to REST queue"}
+{"level":30,"time":1718264750311,"pid":167213,"hostname":"ws5","msg":"Handling REST request with slow speed"}
+{"level":30,"time":1718264753313,"pid":167213,"hostname":"ws5","msg":"Response sent for REST request with slow speed"}

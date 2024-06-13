@@ -35,7 +35,15 @@ const loadBalancerApp = express();
 loadBalancerApp.use(express.json());
 loadBalancerApp.use("/api", genericRouter);
 
+loadBalancerApp.get("/", (req, res) => {
+  res.send(
+    "<h1>Welcome to the Load Balancer</h1><p>This is the home page.</p>"
+  );
+});
+
 //Start the load balancer server on its port
 loadBalancerApp.listen(LOADBALANCER_PORT, () => {
-  Logger.info(`Load balancer server is running on port ${LOADBALANCER_PORT}`);
+  Logger.info(
+    `Load balancer server is running on port http://localhost:${LOADBALANCER_PORT}`
+  );
 });
